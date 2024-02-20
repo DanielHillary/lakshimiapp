@@ -2,14 +2,14 @@ import footer from "../assets/images/footerimage.png";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-slate-900 h-[700px] w-full bg-cover bg-center relative">
+      <div className="bg-slate-800 h-[700px] w-full bg-cover bg-center relative">
         <img
           src={footer}
           alt=""
           className="w-full h-full object-cover absolute mix-blend-overlay"
         />
         <div className="p-12 md:w-[700px]">
-          <h1 className="text-white text-5xl font-semibold mt-20 text-left">
+          <h1 className="text-white text-4xl font-semibold mt-20 text-left">
             Indulge in the Extraordinary. Elevate Your Sip, Elevate Your Life.
           </h1>
           <h2 className="text-white font-light mt-10 text-left">
